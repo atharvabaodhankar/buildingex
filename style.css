@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Kumbh+Sans:wght@100;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Macondo+Swash+Caps&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Righteous&family=Roboto:wght@100;300;400;500;700;900&family=Satisfy&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    scroll-behavior: smooth;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8rem;
+    padding: 0 6rem;
+}
+.logo img{
+    width: 70px;
+}
+nav ul{
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #3e3e3e;
+    position: fixed;
+    top: 8rem;
+    left: -100%;
+    width: 500px;
+    height: 100%;
+    transition: all .2s ease-in-out;
+}
+nav.active ul{
+    left: 0;
+}
+.close{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 6rem;
+    width: 6rem;
+    position: relative;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-right: 2rem;
+}
+.close-bar{
+    width: 3.1rem;
+    height: .3rem;
+    background-color: #fff;
+    position: absolute;
+}
+.close-bar:first-child{
+    transform: rotate(45deg);
+}
+.close-bar:last-child{
+    transform: rotate(-45deg);
+}
+.hamburger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+    cursor: pointer;
+}
+.hambar{
+    position: absolute;
+    width: 3.1rem;
+    height: .4rem;
+    background-color: #3e3e3e;
+}
+.hambar:nth-child(1){
+    top: 1.8rem;
+}
+.hambar:nth-child(2){
+    color: #3e3e3e;
+}
+.hambar:nth-child(3){
+    bottom: 1.8rem;
+}
+nav ul li {
+    margin: 2rem 0;
+}
+nav ul li a{
+    font-size: 1.6rem;
+    color: #fff;
+    transition: all .3s ease;
+    border-bottom: 2px solid transparent;
+}
+nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 1rem;
+
+}
