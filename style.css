@@ -111,5 +111,84 @@ nav ul li a{
 nav ul li a:hover {
     border-bottom: 2px solid #fff;
     padding-bottom: 1rem;
-
+}
+/* Hero */
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    height: 70vh;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/b3ff8bb45b6c5a88b3297421/cvmin.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hero{
+    transform: translate(40% , 10%);
+    width: 500px;
+}
+.hero h2{
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+.hero h1{
+    font-weight: 900;
+    font-size: 6rem;
+    margin: 1rem 0 4rem 0;
+}
+.btn{
+    padding: 2rem 4rem;
+    border: 3px solid #000;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #000;
+    position: relative;
+    margin-top: 3rem;
+    z-index: 2;
+    transition: all .5s ease;
+}
+.btn:hover{
+    color: #fff;
+}
+.btn::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: #000;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: all .4s ease;
+}
+.btn:hover::after{
+    width: 100%;
+}
+.btn-yello{
+    padding: 2rem 4rem;
+    border: 3px solid #ebdf25;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #000;
+    position: relative;
+    margin-top: 3rem;
+    z-index: 2;
+    transition: all .5s ease;
+}
+.btn-yellow:hover{
+    color: #3e3e3e;
+}
+.btn-yellow::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: #ebdf25 ;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: all .4s ease;
+}
+.btn-yellow:hover::after{
+    width: 100%;
 }

@@ -8,25 +8,85 @@
     
 }
 @media screen and (max-width:1000px) {
-    
+    .hero h1{
+        font-size: 5rem;
+    }
 }
 @media screen and (max-width:900px) {
-    
+    .hero {
+        transform: translate(40% , 10%);
+        width: 378px;
+    }
 }
 @media screen and (max-width:800px) {
-    
+    .hero {
+        transform: translate(40% , -25%);
+
+        width: 378px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: column;
+        text-align: right;
+    }
+    .hero h1 {
+        font-size: 4rem;
+    }
+    .hero h2 {
+        font-size: 2rem;
+    }
+    #hero {
+        height: 60vh;
+    }
+}
+@media screen and (max-width:750px) {
+    .hero {
+        width: 50%;
+    }
 }
 @media screen and (max-width:700px) {
     nav ul {
         width: 100%;
     }
+    .hero {
+        transform: translate(25% , 10%);
+        width: 378px;
+    }
 }
 @media screen and (max-width:600px) {
-    
+    .hero {
+        transform: translate(5% , 0%);
+        width: 378px;
+    }
+    #hero {
+        background-position: -138px center;
+    }
 }
 @media screen and (max-width:500px) {
-    
+    .hero h1 {
+        font-size: 3rem;
+    }
+    .btn {
+        padding: 1.3rem 3rem;
+    }
+    .hero h1 {
+        margin: 1rem 0 0rem 0;
+    }
 }
-@media screen and (max-width:400px) {
-    
+@media screen and (max-width:450px) {
+    #hero {
+        background-position: -198px center;
+    }
+    .hero {
+        transform: translate(74px , -140px);
+        width: 185px;
+    }
+}
+@media screen and (max-width:350px) {
+    #hero {
+        background-position: -231px center;
+    }
+    .hero {
+        transform: translate(50px , -140px);
+    }
 }
