@@ -245,3 +245,65 @@ nav ul li a:hover {
     height: 100%;
     object-fit: cover;
 }
+/* Features */
+#features{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/f7131b40fdc458eea55184fb/24354s-min1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 50rem 0 2rem 0;
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.feature-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #2344a1;
+    padding: 5rem 2rem;
+    width: 240px;
+    margin: 0 2rem;
+}
+.feature-box:nth-child(2){
+    background-color: #ebdf25;
+}
+.feature-box:nth-child(2) h4 , .feature-box:nth-child(2) p , .feature-box:nth-child(2) a{
+    color: #000;
+}
+.feature-box:nth-child(2) a{
+    border-bottom: 1px solid #000000;
+}
+.feature-box:nth-child(2) a:hover{
+    border-bottom: 1px solid #0000004d;
+}
+.feature-box:nth-child(3){
+    background-color: #292d33;
+}
+.feature-box:nth-child(4){
+    background-color: #ff4f00;
+}
+.feature-box h4{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.feature-box p{
+    margin: 2rem 0;
+    color: #fff;
+}
+.feature-box a{
+    font-size: 1.6rem;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.feature-box a:hover{
+    border-bottom: 1px solid #ffffff96;
+}
