@@ -307,3 +307,49 @@ nav ul li a:hover {
 .feature-box a:hover{
     border-bottom: 1px solid #ffffff96;
 }
+/* Welcome */
+#welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 7rem 0;
+}
+.welcome-desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 440px;
+    margin: 0 4rem;
+}
+.welcome-desc-main h2{
+    font-size: 4rem;
+}
+.welcome-desc-main p{
+    margin: 2rem 0;
+    margin-bottom: 3rem;
+}
+.welcome-desc-img{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/7e8ec792536e5738a48d8c9e/low-angle-building-city_23-2148814160.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    margin-bottom: 3rem;
+}
+.welcome-img{
+    width: 550px;
+}
+.welcome-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.welcome-opaque{
+    position: absolute;
+    width: 120%;
+    height: 250px;
+    background-color: #ebdf25;
+    z-index: -1;
+}
