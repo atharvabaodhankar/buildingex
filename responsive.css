@@ -3,6 +3,23 @@
         width: 200px;
     }
 }
+@media screen and (max-width:1250px) {
+    .about-img {
+        width: 380px;
+    }
+    .about-desc {
+        width: 290px;
+    }
+    .about-yellow{
+        transform: translate(-200px , 193px);
+    }
+    .about-blue{
+        transform: translate(200px, -36px);
+    }
+    .results {
+        width: 940px;
+    }
+}
 @media screen and (max-width:1200px) {
     .welcome-img {
         width: 364px;
@@ -33,6 +50,25 @@
     .hero h1{
         font-size: 5rem;
     }
+    .about-blue {
+        transform: translate(154px, -36px);
+    }
+    .about-yellow {
+        transform: translate(-154px , 193px);
+    }
+    .about-img {
+        width: 320px;
+    }
+    .results-header {
+        padding: 2rem;
+        width: auto;
+    }
+    .results {
+        width: auto;
+    }
+    .results-box {
+        width: 42%;
+    }
 }
 @media screen and (max-width:900px) {
     .hero {
@@ -51,6 +87,26 @@
     }
     .feature-box {
         padding: 3rem 2rem;
+    }
+    .about-main {
+       flex-direction: column;
+       width: 450px;
+    }
+    .about-img{
+        width: 100%;
+        height: 600px;
+    }
+    .about-desc {
+        width: auto;
+        padding: 5rem 2rem;
+    }
+    .about-yellow {
+        transform: translate(-155px , 193px);
+        width: 200px;
+    }
+    .about-blue {
+        transform: translate(166px, -157px);
+        width: 200px;
     }
 }
 @media screen and (max-width:800px) {
@@ -97,6 +153,9 @@
     .hero {
         width: 50%;
     }
+    .about-desc h2 {
+        font-size: 3rem;
+    }
 }
 @media screen and (max-width:700px) {
     nav ul {
@@ -126,6 +185,21 @@
     .feature-box {
         width: 34%;
     }
+    .about-main {
+        width: 300px;
+    }
+    .about-blue {
+        transform: translate(77px, -157px);
+    }
+    .about-yellow {
+        transform: translate(-77px , 193px);
+    }
+    .results-header h1 {
+        font-size: 3.1rem;
+    }
+    .results-box {
+        width: 38%;
+    }
 }
 @media screen and (max-width:500px) {
     .hero h1 {
@@ -153,6 +227,9 @@
     .welcome-desc-img {
         height: 360px;
     }
+    .results-box {
+        width: 85%;
+    }
 }
 @media screen and (max-width:450px) {
     #hero {
@@ -165,6 +242,13 @@
     .welcome-desc-main h2 {
         font-size: 3rem;
     }
+    .results-header h1 {
+        font-size: 2.7rem;
+    }
+    .results-box {
+        width: auto;
+        margin: 2rem 2rem;
+    }
 }
 @media screen and (max-width:350px) {
     #hero {
@@ -172,5 +256,16 @@
     }
     .hero {
         transform: translate(50px , -140px);
+    }
+    .about-main {
+        width: 240px;
+        height: 720px;
+
+    }
+    .about-blue {
+        transform: translate(40px, -157px);
+    }
+    .about-yellow {
+        transform: translate(-40px , 193px);
     }
 }

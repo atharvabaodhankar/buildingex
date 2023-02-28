@@ -353,3 +353,109 @@ nav ul li a:hover {
     background-color: #ebdf25;
     z-index: -1;
 }
+/* About */
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem 0;
+    background-color: #f9f9f9;
+    position: relative;
+    z-index: 2;
+}
+.about-yellow{
+    position: absolute;
+    width: 500px;
+    height: 170px;
+    background-color: #ebdf25;
+    transform: translate(-300px , 193px);
+    z-index: -1;
+}
+.about-blue{
+    position: absolute;
+    width: 500px;
+    height: 245px;
+    background-color: #2344a1;
+    transform: translate(300px, -36px);
+    z-index: -1;
+}
+.about-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: #fff;
+}
+.about-img{
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/d4c9042ce5dd5267b06016d2/dfgggg-min.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 100%;
+}
+.about-desc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 0 3rem;
+    text-align: left;
+}
+.about-desc h2{
+    font-size: 4rem;
+}
+.about-desc p{
+    margin: 2rem 0;
+}
+.about-desc a{
+    margin-top: 2rem;
+}
+/* Results */
+#results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6rem 0;
+}
+.results-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    width: 800px;
+    margin-bottom: 4rem;
+}
+.results-header h1{
+    font-size: 4rem;
+}
+.results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+.results-box{
+    width: 25%;
+    padding: 2rem;
+    text-align: left;
+    margin-top: 2rem;
+}
+.results-box:nth-child(1){
+    background-color: #2344a1;
+    color: #fff;
+}
+.results-box:nth-child(3){
+    background-color: #ff4f00;
+    color: #fff;
+}
+.results-box:nth-child(5){
+    background-color: #ebdf25;
+}
+.results-box p{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
