@@ -93,6 +93,12 @@
     .results-box {
         width: 42%;
     }
+    .form {
+        width: 300px;
+    }
+    .form-main {
+        width: 300px;
+    }
 }
 @media screen and (max-width:900px) {
     .hero {
@@ -215,6 +221,20 @@
     .about-desc h2 {
         font-size: 3rem;
     }
+    #form{
+        flex-direction: column;
+    }
+    .form-main{
+        width: 90%;
+        margin-top: 4rem;
+    }
+    .form {
+        width: 90%;
+        align-items: flex-start;
+    }
+    .form-social {
+        width: 40%;
+    }
 }
 @media screen and (max-width:700px) {
     nav ul {
@@ -232,6 +252,7 @@
         width: 90%;
         min-width: auto;
     }
+   
 }
 @media screen and (max-width:600px) {
     .hero {
@@ -319,6 +340,9 @@
     .build-img {
         background-position: center ;
     }
+    .form-social {
+        width: 70%;
+    }
 }
 @media screen and (max-width:450px) {
     #hero {
@@ -337,6 +361,15 @@
     .results-box {
         width: auto;
         margin: 2rem 2rem;
+    }
+    .form-top h2 {
+        font-size: 2.6rem;
+    }
+    .form-bot h2 {
+        font-size: 2.6rem;
+    }
+    .form-main h2 {
+        font-size: 2.6rem;
     }
 }
 @media screen and (max-width:350px) {
