@@ -99,6 +99,12 @@
     .form-main {
         width: 300px;
     }
+    .footer-main {
+        width: 270px;
+    }
+    .footer-boxs{
+        width: 70%;
+    }
 }
 @media screen and (max-width:900px) {
     .hero {
@@ -212,6 +218,19 @@
     .build-box {
         width: 40%;
         height: auto;
+    }
+    #footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-main {
+       width: auto;
+       margin: 0 2rem;
+       margin-bottom: 9rem;
+    }
+    .footer-boxs {
+        width: 100%;
     }
 }
 @media screen and (max-width:750px) {
@@ -343,6 +362,9 @@
     .form-social {
         width: 70%;
     }
+    .footer-main h1 {
+        font-size: 3rem;
+    }
 }
 @media screen and (max-width:450px) {
     #hero {
@@ -370,6 +392,17 @@
     }
     .form-main h2 {
         font-size: 2.6rem;
+    }
+    .footer-boxs {
+       flex-wrap: wrap;
+    }
+    .footer-box{
+        width: 90%;
+        margin: 2rem 0;
+    }
+    .footer-main {
+        margin: 0 1rem;
+        margin-bottom: 5rem;
     }
 }
 @media screen and (max-width:350px) {
